@@ -1,0 +1,10 @@
+//        long start = System.currentTimeMillis();
+// loading loop
+//        long end = System.currentTimeMillis();
+//        System.out.println(end - start + "ms"); // ✅ difference
+//        long start = System.nanoTime();
+// your loading loop
+//        long end = System.nanoTime();
+//        System.out.println((end - start) + "ns");
+// or convert to milliseconds
+//        System.out.println((end - start) / 1_000_000.0 + "ms");
