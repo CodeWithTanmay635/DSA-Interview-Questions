@@ -7,6 +7,15 @@ public class BubbleSort {
         int[] arr = {5,4,3,2,1};
         sortArray(arr);
         System.out.println(Arrays.toString(arr));
+        List<String> list = new ArrayList<>();
+
+        list.add("A");
+        list.add("B");
+        list.add("C");
+
+        list.remove("B");
+
+        System.out.println(list);
     }
 
     public static void bubbleSort(int[] arr){
