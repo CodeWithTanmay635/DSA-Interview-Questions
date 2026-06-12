@@ -28,5 +28,6 @@ public class Leetcode_26RemoveDuplicatesSortedArray {
         }
         System.out.println((slow + 1));
         System.out.println("Modified list: " + list.subList(0, slow + 1));
+        sc.close();
     }
 }
